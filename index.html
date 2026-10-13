@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!--
+  ════════════════════════════════════════════════════════════════
+  换站清单 · 复制本模板做新站时，Ctrl+F 搜索「换站」逐项替换
+  ────────────────────────────────────────────────────────────────
+  ① 【换站-SEO】   <title> + meta 描述/关键词（仅 head 内 3 行）
+  ② 【换站-站名】   公司简称/Logo（顶栏 + 页脚共 2 处）、公司全称（首屏眉题、页脚版权）
+  ③ 【换站-电话】   服务热线（顶栏/首屏按钮/联系区/页脚，tel: 链接共 4 处）
+  ④ 【换站-邮箱】   电子邮箱（联系区 + 页脚共 2 处）
+  ⑤ 【换站-地址】   公司地址（联系区 + 页脚共 2 处）
+  ⑥ 【换站-二维码】 替换 assets/wechat-qr.jpg 即可
+  ⑦ 【换站-数据】   首屏 4 个统计数字（data-count 属性 + 标签）
+  ⑧ 【换站-业务】   业务体系 Tab（面板可增删，见区内说明）
+  ⑨ 【换站-方案】   行业方案 5 张卡片
+  ⑩ 【换站-优势】   服务优势 4 张卡片（含品牌表述）
+  ⑪ 【换站-案例】   案例卡片（数量可增删，3 的倍数展示最整齐）
+  ⑫ 【换站-伙伴】   合作伙伴字标
+  ⑬ 【换站-页脚】   页脚简介/经营范围 + ICP 备案号占位
+  配色主题：css/style.css 顶部 :root 变量（【换站-配色】）
+  图片：当前为 AI 生成图（trae-api 域名），正式站替换为实拍图
+  ════════════════════════════════════════════════════════════════
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 【换站-SEO】 ↓↓↓ 三行按新站修改 -->
+  <title>绍兴芃博网络科技有限公司 - 智慧安防·弱电工程·LED显示屏服务商</title>
+  <meta name="description" content="绍兴芃博网络科技有限公司主营弱电施工、安防监控、网络组建与LED显示屏定制安装，与海康威视深度合作、原厂正品货源，服务绍兴柯桥及周边地区的商铺、企业、园区与小区。">
+  <meta name="keywords" content="绍兴弱电施工,绍兴安防监控,绍兴监控安装,绍兴LED显示屏,LED屏安装,门头走字屏,海康威视绍兴,网络组建,综合布线,门禁道闸,绍兴芃博网络科技">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='22'%20fill='%23E60012'/%3E%3Ctext%20x='50'%20y='70'%20font-size='50'%20text-anchor='middle'%20fill='white'%20font-family='sans-serif'%20font-weight='bold'%3EPB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================= 顶部导航 ======================= -->
+  <header id="siteHeader">
+    <div class="container header-inner">
+      <!-- 【换站-站名】 Logo 文字 -->
+      <a class="logo" href="#home" aria-label="芃博科技">
+        <span class="logo-mark">芃</span>
+        <span class="logo-text">芃博科技<small>PB NETWORK TECH</small></span>
+      </a>
+      <nav id="mainNav" aria-label="主导航">
+        <a href="#home" class="active">首页</a>
+        <a href="#services">业务体系</a>
+        <a href="#solutions">行业方案</a>
+        <a href="#advantages">服务优势</a>
+        <a href="#cases">案例展示</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+      <div class="header-cta">
+        <!-- 【换站-电话】 1/4 -->
+        <a class="btn btn-outline phone-btn" href="tel:18866868688">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          188 6686 8688
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================= 首屏 ======================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dark%20modern%20security%20operations%20center%2C%20large%20wall%20of%20CCTV%20surveillance%20monitors%2C%20deep%20navy%20blue%20ambient%20lighting%20with%20subtle%20red%20accent%20glow%2C%20cinematic%2C%20photorealistic%2C%20wide%20angle&image_size=landscape_16_9" alt="">
+    </div>
+    <div class="container hero-inner">
+      <!-- 【换站-站名】 公司全称眉题 -->
+      <p class="hero-eyebrow reveal">绍兴芃博网络科技有限公司 · 智慧安防服务商</p>
+      <h1 class="reveal">一站式<em>智慧安防</em>与<em>弱电工程</em><br>解决方案</h1>
+      <!-- 【换站-SEO】 首屏简介按新站主营改写 -->
+      <p class="hero-sub reveal">深耕绍兴本地市场，与海康威视深度合作、原厂正品货源。为商铺、企业与园区提供弱电施工、安防监控、网络组建的一体化工程服务，并主营LED显示屏定制安装，同步经营监控、网络与办公设备销售。</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">免费获取方案</a>
+        <!-- 【换站-电话】 2/4 -->
+        <a href="tel:18866868688" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          188 6686 8688
+        </a>
+      </div>
+      <!-- 【换站-数据】 占位数据：按实际情况修改 data-count 数值与标签 -->
+      <div class="hero-stats reveal" id="heroStats">
+        <div class="stat"><div class="stat-val"><strong data-count="500">0</strong><i>+</i></div><span class="stat-label">服务客户</span></div>
+        <div class="stat"><div class="stat-val"><strong data-count="800">0</strong><i>+</i></div><span class="stat-label">交付项目</span></div>
+        <div class="stat"><div class="stat-val"><strong class="static">7×24</strong></div><span class="stat-label">快速响应</span></div>
+        <div class="stat"><div class="stat-val"><strong data-count="100">0</strong><i>%</i></div><span class="stat-label">原厂正品</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= 业务体系 ======================= -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">BUSINESS</p>
+        <h2>一体化业务体系</h2>
+        <p class="section-sub">弱电工程设计与施工 + 安防网络设备销售，勘察、方案、施工、维保一站式完成</p>
+      </div>
+
+      <!-- 【换站-业务】 Tab 按钮与下方面板一一对应（data-tab 值 = 面板 id 后缀），可增删 -->
+      <div class="tabs reveal" role="tablist" aria-label="业务切换">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="construction">弱电施工</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="led">LED显示屏</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="sales">设备售卖</button>
+      </div>
+
+      <!-- ▼▼ 换站-业务：以下面板按新站业务改写/增删 ▼▼ -->
+
+      <!-- Tab 1：弱电施工（主推） -->
+      <div class="tab-panel active" id="tab-construction" role="tabpanel">
+        <div class="panel-media reveal">
+          <img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20technician%20installing%20white%20dome%20security%20camera%20on%20office%20ceiling%2C%20ladder%20and%20tools%2C%20realistic%20engineering%20work%2C%20soft%20daylight&image_size=landscape_4_3" alt="弱电施工现场 - 监控设备安装">
+          <span class="panel-badge">主推业务</span>
+        </div>
+        <div class="panel-body reveal">
+          <h3>弱电施工 · 从勘察设计到交付维保</h3>
+          <p class="panel-desc">面向厂房、门店、小区与办公场所，规范施工、整洁布线、按期交付。</p>
+          <ul class="feature-grid">
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><circle cx="5" cy="19" r="2"/><circle cx="19" cy="5" r="2"/><path d="M6.5 17.5C12 12 12 12 17.5 6.5"/></svg></span>
+              <div><h4>综合布线</h4><p>弱电管线规划与敷设，标准化标签管理，后期扩容方便</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M2 8.5 16 5l1.3 4.8L4.4 13z"/><path d="M8 13v4H5"/><path d="M17.5 8.7 21 7.5v5"/></svg></span>
+              <div><h4>视频监控系统</h4><p>海康威视摄像机与录像机选型、安装、调试与联网</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="18" rx="1.5"/><circle cx="14.5" cy="12" r="1.2"/><path d="M3 21h18"/></svg></span>
+              <div><h4>门禁与道闸</h4><p>刷卡/人脸门禁、车牌识别道闸，出入口一体化管控</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v3M6 16v-1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg></span>
+              <div><h4>网络组建</h4><p>有线无线组网、交换路由部署、内外网安全隔离</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M18 9a6 6 0 1 0-12 0c0 6-2 7-2 7h16s-2-1-2-7"/><path d="M10.3 20a2 2 0 0 0 3.4 0"/></svg></span>
+              <div><h4>报警系统</h4><p>红外探测、紧急按钮与声光警号联动告警</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="1.5"/><rect x="3" y="13" width="18" height="7" rx="1.5"/><path d="M7 7.5h.01M7 16.5h.01"/></svg></span>
+              <div><h4>机房与维保</h4><p>机房建设、设备上架调试，定期巡检与快速售后</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tab 2：LED显示屏（主营） -->
+      <div class="tab-panel" id="tab-led" role="tabpanel">
+        <div class="panel-media reveal">
+          <img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=large%20indoor%20LED%20video%20wall%20with%20vivid%20colorful%20content%20in%20modern%20corporate%20showroom%2C%20reflective%20floor%2C%20photorealistic&image_size=landscape_4_3" alt="LED显示屏定制安装">
+          <span class="panel-badge">主营业务</span>
+        </div>
+        <div class="panel-body reveal">
+          <h3>LED显示屏 · 设计安装运维一站式</h3>
+          <p class="panel-desc">室内外全彩屏、拼接屏、会议一体机按需定制，设计、安装、内容维护全包。</p>
+          <ul class="feature-grid">
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M3 10h18M9 4v13M12 17v4M8 21h8"/></svg></span>
+              <div><h4>室内全彩屏</h4><p>展厅、门店形象墙、会议室小间距高清显示</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="11" rx="2"/><path d="M7 21h10M12 17v4"/><circle cx="12" cy="11.5" r="2.5"/></svg></span>
+              <div><h4>室外全彩屏</h4><p>户外防水高亮屏，广告宣传与信息发布</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M3 9.7h18M3 13.4h18M9 3v14M15 3v14M12 17v4M8 21h8"/></svg></span>
+              <div><h4>监控拼接大屏</h4><p>监控中心、调度指挥大屏拼接显示方案</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="12" rx="2"/><path d="M8 7h8M8 10.5h5M12 15v4M8 19h8"/></svg></span>
+              <div><h4>会议一体机</h4><p>智能触控会议平板选型、安装与调试</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M3 9 12 4l9 5"/><path d="M5 9v11h14V9"/><path d="M8 20v-6h8v6"/></svg></span>
+              <div><h4>门头走字屏</h4><p>门店门头屏、走字屏与异形屏定制安装</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5"/><path d="M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/></svg></span>
+              <div><h4>内容发布系统</h4><p>远程集中发布素材，日常更新与巡检维护</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tab 3：设备售卖 -->
+      <div class="tab-panel" id="tab-sales" role="tabpanel">
+        <div class="panel-media reveal">
+          <img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=security%20and%20network%20equipment%20product%20display%2C%20IP%20cameras%20network%20switches%20NVR%20recorders%20on%20dark%20table%2C%20studio%20product%20photography%2C%20blue%20rim%20light&image_size=landscape_4_3" alt="安防与网络设备售卖">
+          <span class="panel-badge">原厂货源</span>
+        </div>
+        <div class="panel-body reveal">
+          <h3>设备售卖 · 正品货源一站配齐</h3>
+          <p class="panel-desc">与海康威视深度合作，原厂正品、含票含保，绍兴本地快速送货安装。</p>
+          <ul class="feature-grid">
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M2 8.5 16 5l1.3 4.8L4.4 13z"/><path d="M8 13v4H5"/><path d="M17.5 8.7 21 7.5v5"/></svg></span>
+              <div><h4>监控设备</h4><p>高清摄像机、NVR 录像机、监视器等安防终端</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v3M6 16v-1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg></span>
+              <div><h4>网络设备</h4><p>企业级交换机、路由器、无线 AP 及网络配件</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M3 9h18M9 3v14M12 17v4M8 21h8"/></svg></span>
+              <div><h4>显示器件</h4><p>监控专用显示器、拼接屏与 LED 显示屏</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><rect x="6" y="14" width="12" height="7"/></svg></span>
+              <div><h4>办公设备</h4><p>台式电脑、打印机及办公外设耗材</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+              <div><h4>原厂正品</h4><p>正规渠道供货，含票含保，杜绝翻新与杂牌</p></div>
+            </li>
+            <li>
+              <span class="f-ico"><svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 8H8z"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M6 6 5 3H2"/></svg></span>
+              <div><h4>送货安装</h4><p>本地仓配，送货上门并协助安装调试</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ▲▲ 换站-业务 结束 ▲▲ -->
+    </div>
+  </section>
+
+  <!-- ======================= 行业方案 ======================= -->
+  <section class="section solutions bg-grid" id="solutions">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">SOLUTIONS</p>
+        <h2>不同场景的全套方案</h2>
+        <p class="section-sub">从商铺门店到政企单位，按场景定制监控、门禁、组网一体化方案</p>
+      </div>
+      <!-- 【换站-方案】 卡片数量可增删（桌面端每行最多 5 张，建议 3/4/5 张） -->
+      <div class="solution-grid stagger">
+        <a class="solution-card reveal" href="#contact">
+          <div class="s-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20retail%20store%20interior%20with%20ceiling%20security%20dome%20camera%2C%20bright%20clean%20shop%2C%20photorealistic&image_size=landscape_4_3" alt="商铺门店安防方案"></div>
+          <div class="s-body"><h3>商铺门店</h3><p>门店监控与防盗报警联动，手机远程随时掌握经营现场</p><span class="s-link">咨询方案<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="solution-card reveal" href="#contact">
+          <div class="s-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=industrial%20factory%20campus%20with%20surveillance%20camera%20in%20foreground%2C%20warehouse%20buildings%2C%20dusk%20blue%20hour%2C%20photorealistic&image_size=landscape_4_3" alt="工厂园区安防方案"></div>
+          <div class="s-body"><h3>工厂园区</h3><p>周界、车间、仓储监控全覆盖，安全生产可视化管理</p><span class="s-link">咨询方案<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="solution-card reveal" href="#contact">
+          <div class="s-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20residential%20compound%20entrance%20with%20license%20plate%20recognition%20barrier%20gate%20at%20night%2C%20photorealistic&image_size=landscape_4_3" alt="商住小区安防方案"></div>
+          <div class="s-body"><h3>商住小区</h3><p>车牌识别道闸、单元门禁与公共区域监控一体化交付</p><span class="s-link">咨询方案<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="solution-card reveal" href="#contact">
+          <div class="s-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20school%20campus%20building%20with%20security%20camera%20mounted%20on%20wall%2C%20daytime%2C%20photorealistic&image_size=landscape_4_3" alt="学校校园安防方案"></div>
+          <div class="s-body"><h3>学校校园</h3><p>校园视频监控与一键报警，重点区域全天候守护</p><span class="s-link">咨询方案<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="solution-card reveal" href="#contact">
+          <div class="s-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20corporate%20office%20building%20exterior%2C%20glass%20facade%2C%20blue%20sky%2C%20photorealistic%2C%20low%20angle&image_size=landscape_4_3" alt="政企单位安防方案"></div>
+          <div class="s-body"><h3>政企单位</h3><p>办公网络、会议显示与安防系统统一规划、集中交付</p><span class="s-link">咨询方案<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= 服务优势 ======================= -->
+  <section class="section advantages" id="advantages">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">WHY US</p>
+        <h2>为什么选择芃博</h2>
+        <p class="section-sub">原厂货源 + 本地服务 + 规范施工，一个团队负责到底</p>
+      </div>
+      <!-- 【换站-优势】 4 张卡片：卖点与品牌表述按新站改写 -->
+      <div class="adv-grid stagger">
+        <div class="adv-card reveal">
+          <span class="a-ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <h3>原厂正品货源</h3>
+          <p>与海康威视深度合作，正规渠道、含票含保，设备来源可溯。</p>
+        </div>
+        <div class="adv-card reveal">
+          <span class="a-ico"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <h3>本地快速响应</h3>
+          <p>深耕绍兴柯桥，电话 7×24 接听，报修快速上门处理。</p>
+        </div>
+        <div class="adv-card reveal">
+          <span class="a-ico"><svg viewBox="0 0 24 24"><path d="M14.5 5.5a4 4 0 0 0-5.6 5L3 16.4 7.6 21l5.9-5.9a4 4 0 0 0 5-5.6l-2.8 2.8-2.9-.9-.9-2.9z"/></svg></span>
+          <h3>规范施工交付</h3>
+          <p>弱电规范施工，管线横平竖直、标签清晰，一次验收达标。</p>
+        </div>
+        <div class="adv-card reveal">
+          <span class="a-ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M17.5 14.4a6.5 6.5 0 0 1 4 5.6"/></svg></span>
+          <h3>全周期服务</h3>
+          <p>勘察、方案、施工、验收到维保，一个团队全程跟进负责。</p>
+        </div>
+      </div>
+
+      <!-- 服务流程（通用模块，一般无需改动） -->
+      <div class="process reveal">
+        <h3 class="process-title">服务流程</h3>
+        <ol class="process-steps">
+          <li><i>01</i><strong>免费现场勘察</strong><span>上门了解现场与需求</span></li>
+          <li><i>02</i><strong>出具方案报价</strong><span>点位规划与清单报价</span></li>
+          <li><i>03</i><strong>规范施工布线</strong><span>按图施工、文明规范</span></li>
+          <li><i>04</i><strong>验收培训交付</strong><span>系统调试与使用培训</span></li>
+          <li><i>05</i><strong>定期回访维保</strong><span>巡检维护、快速响应</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= 案例展示 ======================= -->
+  <section class="section cases bg-grid" id="cases">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">CASES</p>
+        <h2>项目案例</h2>
+        <p class="section-sub">用工程质量说话，交付即负责</p>
+      </div>
+      <!-- 【换站-案例】 以下为示例占位案例，正式资料确认后替换；卡片可增删 -->
+      <div class="case-grid stagger">
+        <article class="case-card reveal">
+          <div class="c-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=row%20of%20HD%20bullet%20security%20cameras%20mounted%20on%20factory%20exterior%20wall%2C%20blue%20sky%2C%20photorealistic&image_size=landscape_4_3" alt="厂区监控项目案例"></div>
+          <div class="c-body"><span class="c-tag">工厂园区</span><h3>某服装厂厂区监控项目 · 绍兴柯桥</h3><p>厂区周界与车间部署高清点位 60 余路，实现全域覆盖与集中管理。</p></div>
+        </article>
+        <article class="case-card reveal">
+          <div class="c-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=supermarket%20aisle%20with%20overhead%20surveillance%20camera%2C%20retail%20interior%2C%20photorealistic&image_size=landscape_4_3" alt="超市门店安防升级案例"></div>
+          <div class="c-body"><span class="c-tag">商铺门店</span><h3>某连锁超市门店安防升级 · 绍兴</h3><p>门店监控与防盗报警联动，支持总部远程调阅与统一管理。</p></div>
+        </article>
+        <article class="case-card reveal">
+          <div class="c-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=residential%20community%20gate%20with%20barrier%20and%20CCTV%20camera%20at%20evening%2C%20warm%20lights%2C%20photorealistic&image_size=landscape_4_3" alt="小区出入口改造案例"></div>
+          <div class="c-body"><span class="c-tag">商住小区</span><h3>某小区智慧出入口改造 · 绍兴柯桥</h3><p>车牌识别道闸与单元门禁联网，出入更便捷、管理更省心。</p></div>
+        </article>
+        <article class="case-card reveal">
+          <div class="c-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20corporate%20showroom%20with%20large%20LED%20video%20wall%20displaying%20vibrant%20content%2C%20photorealistic&image_size=landscape_4_3" alt="企业展厅LED全彩屏案例"></div>
+          <div class="c-body"><span class="c-tag">LED显示屏</span><h3>某企业展厅LED全彩屏项目 · 绍兴柯桥</h3><p>室内小间距全彩屏定制安装，产品展示与活动发布更显档次。</p></div>
+        </article>
+        <article class="case-card reveal">
+          <div class="c-img"><img loading="lazy" src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=outdoor%20LED%20advertising%20billboard%20screen%20on%20building%20wall%20at%20night%2C%20vivid%20colorful%20content%2C%20city%20street%2C%20photorealistic&image_size=landscape_4_3" alt="户外LED广告屏案例"></div>
+          <div class="c-body"><span class="c-tag">LED显示屏</span><h3>某广场户外LED广告屏 · 绍兴柯桥</h3><p>户外高亮防水屏安装调试，支持远程集中发布内容。</p></div>
+        </article>
+      </div>
+      <p class="case-note reveal">* 以上为示例占位内容，正式案例资料确认后替换。</p>
+    </div>
+  </section>
+
+  <!-- ======================= 合作伙伴 ======================= -->
+  <section class="section partners">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">PARTNERS</p>
+        <h2>合作伙伴</h2>
+        <p class="section-sub">与知名原厂深度合作，货源正品可靠</p>
+      </div>
+      <!-- 【换站-伙伴】 品牌字标按新站替换（注意：需有实际合作授权方可使用他人商标） -->
+      <div class="partner-row reveal">
+        <div class="partner-chip hikvision">
+          <strong>HIKVISION</strong><i></i><span>海康威视 · 深度合作</span>
+        </div>
+        <div class="partner-chip placeholder">更多原厂品牌 · 持续接入</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= 联系我们 ======================= -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">CONTACT</p>
+        <h2>联系我们</h2>
+        <p class="section-sub">电话、微信均可咨询，免费勘察、免费出方案</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <!-- 【换站-电话】 3/4 -->
+          <a class="c-item" href="tel:18866868688">
+            <span class="c-ico"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <div><span class="c-label">服务热线（点击拨打）</span><strong>188 6686 8688</strong></div>
+          </a>
+          <!-- 【换站-邮箱】 1/2 -->
+          <a class="c-item" href="mailto:85641247@qq.com">
+            <span class="c-ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+            <div><span class="c-label">电子邮箱</span><strong>85641247@qq.com</strong></div>
+          </a>
+          <!-- 【换站-地址】 1/2 -->
+          <div class="c-item">
+            <span class="c-ico"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><span class="c-label">公司地址</span><strong>浙江省绍兴市柯桥区钱清街道蜀风村577号一楼</strong></div>
+          </div>
+          <div class="c-item">
+            <span class="c-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div><span class="c-label">服务时间</span><strong>电话 7×24 接听 · 现场服务请提前预约</strong></div>
+          </div>
+        </div>
+        <!-- 【换站-二维码】 替换 assets/wechat-qr.jpg -->
+        <div class="contact-qr reveal">
+          <div class="qr-card">
+            <img src="assets/wechat-qr.jpg" alt="芃博科技微信二维码">
+            <strong>微信扫码添加</strong>
+            <span>扫一扫上方二维码，添加微信咨询<br>或长按识别二维码</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= 页脚 ======================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="f-brand">
+        <!-- 【换站-站名】 2/2 -->
+        <a class="logo" href="#home">
+          <span class="logo-mark">芃</span>
+          <span class="logo-text">芃博科技<small>PB NETWORK TECH</small></span>
+        </a>
+        <!-- 【换站-页脚】 公司简介/经营范围按新站改写 -->
+        <p>绍兴芃博网络科技有限公司专注智慧安防与弱电工程，主营弱电施工，同步经营安防监控、网络、显示与办公设备销售。</p>
+      </div>
+      <div class="f-nav">
+        <h4>快速导航</h4>
+        <a href="#services">弱电施工</a>
+        <a href="#services">设备售卖</a>
+        <a href="#solutions">行业方案</a>
+        <a href="#cases">案例展示</a>
+        <a href="#contact">联系我们</a>
+      </div>
+      <div class="f-contact">
+        <h4>联系方式</h4>
+        <!-- 【换站-电话】 4/4 ｜【换站-邮箱】 2/2 ｜【换站-地址】 2/2 -->
+        <a href="tel:18866868688">电话：188 6686 8688</a>
+        <a href="mailto:85641247@qq.com">邮箱：85641247@qq.com</a>
+        <span>地址：浙江省绍兴市柯桥区钱清街道蜀风村577号一楼</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <!-- 【换站-站名】 版权署名 -->
+      <span>© 2026 绍兴芃博网络科技有限公司 版权所有</span>
+      <!-- 【换站-页脚】 ICP 备案占位：备案通过后替换为正式备案号并配置链接 -->
+      <a href="javascript:void(0)" title="备案办理中">浙ICP备XXXXXXXX号</a>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
